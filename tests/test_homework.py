@@ -1,9 +1,9 @@
 """Autograding script."""
 
 import os
-
+import sys
 import pandas as pd  # type: ignore
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from homework import clean_data  # type: ignore
 
 
